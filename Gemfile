@@ -9,12 +9,15 @@ gem 'sqlite3'
 
 # Added new Gems as part of the Ruby on Rails tutorial
 group :development do
-  gem 'rspec-rails', '2.0.1'
+  #gem 'rspec-rails', '2.0.1'
+  gem 'rspec-rails', '2.10.1'
 end
 
 group :test do
-  gem 'rspec', '2.0.1' 
-  gem 'webrat', '0.7.1'
+  #gem 'rspec', '2.0.1' 
+  gem 'rspec', '2.10.0' 
+  gem 'webrat', '0.7.3'
+  gem 'spork', '0.9.1'
 end
 
 
